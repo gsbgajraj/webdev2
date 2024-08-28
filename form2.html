@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in html</title>
+    <style>
+        .banner{
+            height: 100%;
+            width: 100;
+            background-color: lightgray;
+        }
+        body{
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+        }
+        h1{ background-color: rgb(115, 115, 115);
+            font-size: 50px;}
+    </style>
+</head>
+<body>
+    <div class="banner">
+    <h1>select your favourite language</h1>
+    <input type="radio" id="html" name="fav_lang" value="HTML">
+    <label for="html" >HTML</label><br>
+    <input type="radio" id="JS" name="fav_lang" value="JS">
+    <label for="JS" >JS</label><br>
+    <input type="radio" id="CSS" name="fav_lang" value="CSS">
+    <label for="CSS" >CSS</label><br>
+
+    <h1>select your favourite singer</h1>
+    <input type="checkbox" id="mankirt" name="fav_lang" value="HTML">
+    <label for="mankirt" >mankirt</label><br>
+    <input type="checkbox" id="jassi Gill" name="fav_lang" value="JS">
+    <label for="jassi Gill" >jassi Gill</label><br>
+    <input type="checkbox" id="parmish" name="fav_lang" value="parmish">
+    <label for="parmish" >parmish</label><br>
+
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+</body>
+</html>

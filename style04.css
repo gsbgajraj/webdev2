@@ -1,0 +1,15 @@
+table,thead,tr,th{
+    border: 5px solid rgb(0, 0, 111);
+    border-collapse: collapse;
+    
+}
+table,tbody,tr,th{
+    border: 5px solid rgb(8, 212, 192);
+    border-collapse: collapse;
+    padding: 10px ;
+    border-spacing: 30px;
+    
+}
+th,tr{
+    background-color: darkred;
+}
